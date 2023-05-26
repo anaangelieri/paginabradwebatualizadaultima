@@ -1,0 +1,193 @@
+body{
+    background-color: #26221f;
+    margin-top: 70px;
+    margin-left: 50px;;
+}
+
+.imagem_arredondada{
+    border-radius: 5%;
+}
+
+.bloco {
+    width: 260px;
+    border-radius: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 7px solid #252527;
+    background-color: #252527;
+}
+
+.fonte{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: #e58e27;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: 1vh;
+}
+
+.botao {
+    width: 175px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #e58e27;
+    position: relative;
+    display: block;
+    margin-top: -4vh;
+    margin-left: 9vh;
+}
+
+.botao a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bloco_marvel{
+    width: 350px;
+    height:350px;
+    background-color: #252527;
+    border-radius: 4%;
+    margin-left: 50%;
+    margin-top: -350px;
+}
+
+.fonte_marvel{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+.fonte_ps5{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(87, 81, 81);
+    margin-left: 10px;
+
+}
+
+.fonte_texto{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.conteiner_footer{
+    display: flex;
+    width: 110%;
+    height: 20vh;
+    position: relative;
+    align-items: center;
+    left: -6vh;
+    bottom: -33vh;
+    justify-content: space-around;
+    background-image: url(fundoo.jpg);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.fonte_footer{
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.fundo-img{
+    background-color: #161a1e;
+    background-image: url(../imagens/fundoHome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+}
+
+.titulo-home{
+    color: #fbfbfb;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.paragrafo{
+    color: #fbfbfb;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer{
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40vh;
+}
+
+.logo-cabecario{
+    border-radius: 50%;
+}
+ 
+
+
+@media screen and (max-width: 640px) {
+    .bloco_marvel{
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botao{
+        position: relative;
+        display: block;
+    }
+
+    .fonte{
+        margin-left: 2vh;
+    }
+
+    .bloco{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .conteiner_footer{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:1007px) {
+    .bloco_marvel{
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bloco{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fonte{
+        margin-left: 2vh;
+    }
+
+    .botao {
+        position: relative;
+        display: block;
+    }
+
+    .conteiner_footer{
+        font-size: 18px;
+    }
+
+}
